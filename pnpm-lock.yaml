@@ -2,22 +2,30 @@ lockfileVersion: 5.3
 
 specifiers:
   '@tailwindcss/ui': ^0.7.2
+  '@thisbeyond/solid-dnd': ^0.3.3
+  '@types/uuid': ^8.3.3
   autoprefixer: ^10.4.0
   postcss: ^8.4.5
+  solid-app-router: ^0.1.14
   solid-js: ^1.2.6
   tailwindcss: ^3.0.7
   typescript: ^4.5.4
+  uuid: ^8.3.2
   vite: ^2.7.6
   vite-plugin-solid: ^2.1.4
 
 dependencies:
   '@tailwindcss/ui': 0.7.2_tailwindcss@3.0.7
+  '@thisbeyond/solid-dnd': 0.3.3_solid-js@1.2.6
   autoprefixer: 10.4.0_postcss@8.4.5
   postcss: 8.4.5
+  solid-app-router: 0.1.14_solid-js@1.2.6
   solid-js: 1.2.6
   tailwindcss: 3.0.7_16a290f6d0e3717bf6d2667234aebd30
+  uuid: 8.3.2
 
 devDependencies:
+  '@types/uuid': 8.3.3
   typescript: 4.5.4
   vite: 2.7.6
   vite-plugin-solid: 2.1.4
@@ -373,9 +381,21 @@ packages:
       tailwindcss: 3.0.7_16a290f6d0e3717bf6d2667234aebd30
     dev: false
 
+  /@thisbeyond/solid-dnd/0.3.3_solid-js@1.2.6:
+    resolution: {integrity: sha512-IOIf1kRB3XMEsCsaLD1D5K0RxmWwptsjMQkjnum+7C13VtBrPRp84EjEeuB1Qu5X+LR2rEOc+opHnnAP9Z6b2Q==}
+    peerDependencies:
+      solid-js: '1'
+    dependencies:
+      solid-js: 1.2.6
+    dev: false
+
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: false
+
+  /@types/uuid/8.3.3:
+    resolution: {integrity: sha512-0LbEEx1zxrYB3pgpd1M5lEhLcXjKJnYghvhTRgaBeUivLHMDM1TzF3IJ6hXU2+8uA4Xz+5BA63mtZo5DjVT8iA==}
+    dev: true
 
   /acorn-node/1.8.2:
     resolution: {integrity: sha512-8mt+fslDufLYntIoPAaIMUe/lrbrehIiwmR3t2k9LljIzoigEPF27eLk2hy8zSGzmR/ogr7zbRKINMo1u0yh5A==}
@@ -1220,6 +1240,14 @@ packages:
     hasBin: true
     dev: true
 
+  /solid-app-router/0.1.14_solid-js@1.2.6:
+    resolution: {integrity: sha512-fnX+jCB5sDMbjq3od9qGtQNdlvHP2c6DG5STvMHVXyNuSEN+MdO7WJtZ58OpVpq6zWS4FYeYAh7NMEa7C2CcOA==}
+    peerDependencies:
+      solid-js: ^1.0.0
+    dependencies:
+      solid-js: 1.2.6
+    dev: false
+
   /solid-js/1.2.6:
     resolution: {integrity: sha512-NvPHJ5Vj5f+ZJWIioickrC55seovSkDtm5NzSpnoUk3z4tATv0STpy5iuGNEn51ZORUcwpZzrMAtOCGziXU1XA==}
 
@@ -1326,6 +1354,11 @@ packages:
 
   /util-deprecate/1.0.2:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
+    dev: false
+
+  /uuid/8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    hasBin: true
     dev: false
 
   /vite-plugin-solid/2.1.4:
