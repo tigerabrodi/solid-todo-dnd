@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    height: 100%;
+  }
+
+  body {
+    box-sizing: border-box;
+    background: #202e73;
+    color: #dde1f4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:focus-visible {
+    outline: 1px solid white;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px black;
+  }
+
+  button {
+    border: none;
+    cursor: pointer;
+  }
+
+  button:focus-visible {
+    outline: 1px solid white;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px black;
+  }
+
+  input {
+    border: none;
+  }
+
+  input::placeholder {
+    color: inherit;
+    opacity: 0.6;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  textarea {
+    border: none;
+  }
+
+  textarea::placeholder {
+    color: inherit;
+    opacity: 0.6;
+  }
+
+  textarea:focus {
+    outline: none;
+  }
+}
